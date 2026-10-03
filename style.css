@@ -12,9 +12,6 @@ body {
     display: flex;
     flex-direction: column;
 }
-.scroll-desativado {
-    overflow-y: hidden;
-}
 main {
     flex: 1;
 }
@@ -49,9 +46,6 @@ nav a:hover {
 .corpo-pagina {
     width: 100%;
     max-width: 1200px;
-}
-.conteudo-pagina {
-    text-align: justify;
 }
 .conteudo-pagina h2 {
     margin: 30px 75px 0 20px;
@@ -155,22 +149,6 @@ footer p {
     color: #d3dee8;
     margin-right: 5px;
 }
-.sidebar {
-    position: fixed;
-    top: 0;
-    right: 0;
-    height: 100vh;
-    width: 280px;
-    z-index: 999;
-    background-color: rgba(255,255,225, 0.2);
-    box-shadow: -10px 0 10px rgba(0,0,0, 0.1);
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    backdrop-filter: blur(10px);
-}
-
 @media (max-width: 600px) {
    header {
         padding: 15px;
@@ -226,8 +204,5 @@ footer p {
         position: static;
         transform: none;
         font-size: 13px;
-   }
-   .siderbar {
-        width: 250px;
    }
 }
